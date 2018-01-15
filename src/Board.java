@@ -8,6 +8,8 @@ public class Board {
     private ArrayList<String> tileList = new ArrayList<>();
     private ArrayList<String> blackPawnList = new ArrayList<>();
     private ArrayList<String> whitePawnList = new ArrayList<>();
+    private boolean[][] masks = {{
+    }};
 
     public Board(int boardNumber) {
         fillLists();
@@ -43,7 +45,6 @@ public class Board {
 
     private void printBoard()
     {
-
         for(int y = 0; y < 10; y++)
         {
             tileList.set(y,"O");

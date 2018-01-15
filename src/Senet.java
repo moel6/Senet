@@ -106,7 +106,10 @@ public class Senet
                     player.setPlayerColour2("x");
                 }
             }
+
         }
+
+//        recall loop here if game status is finished breakcode or stop
     }
 
 }
